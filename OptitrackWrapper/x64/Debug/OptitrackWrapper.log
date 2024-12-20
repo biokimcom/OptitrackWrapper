@@ -1,0 +1,62 @@
+﻿  Source.cpp
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(67,5): warning C4273: 'OutputFrameQueueToConsole': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(16,30):
+  see previous definition of 'OutputFrameQueueToConsole'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(127,6): warning C4273: 'initNatNetClient': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(10,31):
+  see previous definition of 'initNatNetClient'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(128,5): warning C4273: 'ConnetToMotive': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(12,30):
+  see previous definition of 'ConnetToMotive'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(129,6): warning C4273: 'closeConnect': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(14,31):
+  see previous definition of 'closeConnect'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(130,6): warning C4273: 'thread_sleep': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(18,31):
+  see previous definition of 'thread_sleep'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(131,6): warning C4273: 'updateArray': inconsistent dll linkage
+  (compiling source file '/Source.cpp')
+  C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Header.h(20,31):
+  see previous definition of 'updateArray'
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(848,25): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(848,25): warning C4244:         with
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(848,25): warning C4244:         [
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(848,25): warning C4244:             _Ty=float
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(848,25): warning C4244:         ]
+  (compiling source file '/Source.cpp')
+  
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(1072,25): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(1072,25): warning C4244:         with
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(1072,25): warning C4244:         [
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(1072,25): warning C4244:             _Ty=float
+C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(1072,25): warning C4244:         ]
+  (compiling source file '/Source.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         ]
+  (compiling source file '/Source.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\egrstudent\source\repos\OptitrackWrapper\OptitrackWrapper\Source.cpp(810,10):
+  	see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(const _FwdIt,const _FwdIt,const int &)' being compiled
+          with
+          [
+              _Ty=float,
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  
+  OptitrackWrapper.vcxproj -> C:\Users\egrstudent\source\repos\OptitrackWrapper\x64\Debug\OptitrackWrapper.dll
